@@ -1,3 +1,64 @@
 @import 'reset.css';
 @import 'fonts.css';
 @import 'layout.css';
+
+.form {
+  background: #FEF1EC;
+  font-family: 'Geologica', sans-serif;
+  border-radius: 30px;
+  padding: 40px;
+  width: 660px;
+  box-sizing: border-box;
+  margin: 30px auto;
+}
+
+.form h1 {
+  font-family: 'Geologica', sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  color: #0A4165;
+  margin-bottom: 15px;
+}
+
+.form p {
+  font-family: 'Geologica', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #0A4165;
+  margin-bottom: 40px;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 18px 25px;
+  border: 2px solid #0A4165;
+  border-radius: 30px;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'Geologica', sans-serif;
+}
+
+.form input::placeholder {
+  color: #888;
+  opacity: 1;
+}
+
+.form button {
+  width: 300px;
+  padding: 18px;
+  border: none;
+  border-radius: 30px;
+  background: #FE6E5A;
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'Geologica', sans-serif;
+  cursor: pointer;
+}
